@@ -1,0 +1,192 @@
+12-22 20:21:06.790  8963  8988 I TestRunner: started: order_reset_after_cancel_from_checkout(com.example.lunchtray.OrderFunctionalityTests)
+12-22 20:21:06.795   573  1068 W InputManager-JNI: Input channel object '76fd5b com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (client)' was disposed without first being removed with the input manager!
+12-22 20:21:06.806  8963  8988 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-22 20:21:06.821  1001  1071 D SplashScreenView: Build android.window.SplashScreenView{bab8f1d V.E...... ......ID 0,0-0,0}
+12-22 20:21:06.821  1001  1071 D SplashScreenView: Icon: view: null drawable: null size: 0
+12-22 20:21:06.821  1001  1071 D SplashScreenView: Branding: view: android.view.View{b14f592 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+12-22 20:21:06.846   424   424 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-22 20:21:06.866  8963  8963 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a in: PRE_ON_CREATE
+12-22 20:21:06.866  1001  1096 E OpenGLRenderer: Unable to match the desired swap behavior.
+12-22 20:21:06.868  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.877  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.888  8963  8963 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a in: CREATED
+12-22 20:21:06.888  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.889  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.891  8963  8963 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a in: STARTED
+12-22 20:21:06.896  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.897  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.905  8963  8963 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a in: RESUMED
+12-22 20:21:06.906  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.906  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.910  8963  8963 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a in: PAUSED
+12-22 20:21:06.910  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.916  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:06.930  1001  1096 D EGL_emulation: app_time_stats: avg=380.03ms min=4.51ms max=3699.60ms count=10
+12-22 20:21:06.931  8963  8963 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@7b404b4 in: PRE_ON_CREATE
+12-22 20:21:06.933  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:06.933  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-22 20:21:06.937  2393  2393 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-22 20:21:06.938  2393  3157 E HwDetectorWithState: a: 3
+12-22 20:21:06.949  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67836, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missing HWUI jank callback for vsyncId: 67836, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67872, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missing HWUI jank callback for vsyncId: 67872, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67894, 41297932, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67916, 40602966, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67931, 43217800, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67953, 39635134, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 67975, 39705368, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68004, 48183302, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68033, 44387136, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68044, 41093970, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.950  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68063, 40032904, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68078, 42696838, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68093, 43514672, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68108, 45339506, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68123, 46551840, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68138, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missing HWUI jank callback for vsyncId: 68138, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.951  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 80, 68153, 60795308, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.952  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68176, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.952  1304  1304 W FrameTracker: Missing HWUI jank callback for vsyncId: 68176, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.953  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68184, 93950010, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.953  1304  1304 W FrameTracker: Missed App frame:UNKNOWN: 74, 68192, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.954  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 74, 68192, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.954  1304  1304 W FrameTracker: Missing HWUI jank callback for vsyncId: 68192, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.955  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68201, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.955  1304  1304 W FrameTracker: Missing HWUI jank callback for vsyncId: 68201, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.955  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68210, 80678548, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.955  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68218, 99213482, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.956  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68228, 96497584, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.956  1304  1304 W FrameTracker: Missed SF frame:UNKNOWN: 66, 68237, 93406752, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.956  1304  1304 W FrameTracker: Missing SF jank callback for vsyncId: 68246, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+12-22 20:21:06.967  8963  8963 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@7b404b4 in: CREATED
+12-22 20:21:06.968  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:06.969  8963  8963 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:06.996  8963  8963 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@7b404b4 in: STARTED
+12-22 20:21:07.000  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:07.001  8963  8963 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:07.013  8963  8963 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@7b404b4 in: RESUMED
+12-22 20:21:07.014  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:07.016  8963  8963 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@7b404b4
+12-22 20:21:07.078  8963  8990 E OpenGLRenderer: Unable to match the desired swap behavior.
+12-22 20:21:07.106   573   609 W ziparchive: Unable to open '/data/app/~~ltOsS7u6jcohaR34dQNvgA==/com.example.lunchtray-r6348IOCpoTtk9n5aZXxxw==/base.dm': No such file or directory
+12-22 20:21:07.108   573   609 I ActivityTaskManager: Displayed com.example.lunchtray/.MainActivity for user 0: +295ms
+12-22 20:21:07.118  8963  8963 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+12-22 20:21:07.131  8963  8963 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+12-22 20:21:07.232  1001  1096 D EGL_emulation: app_time_stats: avg=417.22ms min=16.65ms max=2450.22ms count=7
+12-22 20:21:07.249  1304  1362 I ImeTracker: com.google.android.apps.nexuslauncher:c1a16657: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+12-22 20:21:07.251  1304  6829 D OneSearchSuggestProvider: Shut down the binder channel
+12-22 20:21:07.252  8963  8963 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a in: STOPPED
+12-22 20:21:07.254  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:07.255  8963  8963 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@429a84a
+12-22 20:21:07.259   573  1068 I ImeTracker: com.google.android.apps.nexuslauncher:c1a16657: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-22 20:21:07.262  1304  9085 I IPCThreadState: oneway function results for code 2 on binder at 0x746072b0b750 will be dropped but finished with status UNKNOWN_TRANSACTION
+12-22 20:21:07.263   573  1068 I ImeTracker: com.example.lunchtray:ec595e4: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+12-22 20:21:07.264   573  1068 I ImeTracker: com.example.lunchtray:ec595e4: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-22 20:21:07.268  1691  1691 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+12-22 20:21:07.272  1691  1691 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+12-22 20:21:07.273  1691  1691 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.lunchtray fieldId=0 fieldName=null extras=null}, false)
+12-22 20:21:07.273  1691  1691 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+12-22 20:21:07.278  1691  1691 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+12-22 20:21:07.401  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231209/com.example.lunchtray:id/start_order_btn>
+12-22 20:21:07.405  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1197.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6690403, downTime=6690403, deviceId=-1, source=0x1002, displayId=0, eventId=-671181314 }
+12-22 20:21:07.406  8963  8963 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+12-22 20:21:07.554  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1197.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6690553, downTime=6690403, deviceId=-1, source=0x1002, displayId=0, eventId=-764772901 }
+12-22 20:21:07.558   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:07.559   420   683 D audioserver: -129
+12-22 20:21:07.588  1001  1070 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@86e958c
+12-22 20:21:07.591   573  2193 W InputManager-JNI: Input channel object 'c725fff Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+12-22 20:21:07.664  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741825
+12-22 20:21:07.665  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741826
+12-22 20:21:07.665  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741827
+12-22 20:21:07.667  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741828
+12-22 20:21:07.667  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741824
+12-22 20:21:07.780   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:07.780   420   508 D audioserver: -129
+12-22 20:21:08.059  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230844/com.example.lunchtray:id/cauliflower>
+12-22 20:21:08.099  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=206.0, y[0]=285.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6691073, downTime=6691073, deviceId=-1, source=0x1002, displayId=0, eventId=-131762600 }
+12-22 20:21:08.153  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=206.0, y[0]=285.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6691137, downTime=6691073, deviceId=-1, source=0x1002, displayId=0, eventId=-338420492 }
+12-22 20:21:08.178  8963  8990 D EGL_emulation: app_time_stats: avg=18.68ms min=1.93ms max=339.44ms count=25
+12-22 20:21:08.201   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:08.201   420   683 D audioserver: -129
+12-22 20:21:08.207  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741825
+12-22 20:21:08.232  1001  1096 D EGL_emulation: app_time_stats: avg=15.67ms min=1.28ms max=66.66ms count=28
+12-22 20:21:08.260  1001  1093 I QuickAccessWalletTile: QAW service is unavailable, recreating the wallet client.
+12-22 20:21:08.414   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:08.414   420   508 D audioserver: -129
+12-22 20:21:08.655  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231081/com.example.lunchtray:id/next_button>
+12-22 20:21:08.686  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=798.5, y[0]=1718.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6691663, downTime=6691663, deviceId=-1, source=0x1002, displayId=0, eventId=-166197433 }
+12-22 20:21:08.716  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=798.5, y[0]=1718.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6691713, downTime=6691663, deviceId=-1, source=0x1002, displayId=0, eventId=-278310447 }
+12-22 20:21:08.738   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:08.739   420   683 D audioserver: -129
+12-22 20:21:08.855  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741830
+12-22 20:21:08.858  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741831
+12-22 20:21:08.860  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741832
+12-22 20:21:08.861  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741833
+12-22 20:21:08.864  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741829
+12-22 20:21:08.958   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:08.958   420   508 D audioserver: -129
+12-22 20:21:09.151  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231138/com.example.lunchtray:id/salad>
+12-22 20:21:09.195  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=239.5, y[0]=285.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6692164, downTime=6692164, deviceId=-1, source=0x1002, displayId=0, eventId=-325872519 }
+12-22 20:21:09.219  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=239.5, y[0]=285.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6692215, downTime=6692164, deviceId=-1, source=0x1002, displayId=0, eventId=-623932365 }
+12-22 20:21:09.241  8963  8990 D EGL_emulation: app_time_stats: avg=17.93ms min=2.19ms max=208.98ms count=27
+12-22 20:21:09.252   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:09.253   420   683 D audioserver: -129
+12-22 20:21:09.258  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741830
+12-22 20:21:09.276   420   508 D AudioFlinger: mixer(0x775a69abf930) throttle end: throttle time(1)
+12-22 20:21:09.461   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:09.462   420   508 D audioserver: -129
+12-22 20:21:09.542  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231081/com.example.lunchtray:id/next_button>
+12-22 20:21:09.555  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=798.5, y[0]=1672.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6692548, downTime=6692548, deviceId=-1, source=0x1002, displayId=0, eventId=-341002511 }
+12-22 20:21:09.598  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=798.5, y[0]=1672.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6692590, downTime=6692548, deviceId=-1, source=0x1002, displayId=0, eventId=-153108327 }
+12-22 20:21:09.636   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:09.637   420   683 D audioserver: -129
+12-22 20:21:09.844  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741835
+12-22 20:21:09.847  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741836
+12-22 20:21:09.850  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741837
+12-22 20:21:09.854  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741834
+12-22 20:21:09.867   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:09.867   420   508 D audioserver: -129
+12-22 20:21:10.251  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230835/com.example.lunchtray:id/bread>
+12-22 20:21:10.270  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=196.0, y[0]=285.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6693261, downTime=6693260, deviceId=-1, source=0x1002, displayId=0, eventId=-1063981475 }
+12-22 20:21:10.311  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=196.0, y[0]=285.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6693301, downTime=6693260, deviceId=-1, source=0x1002, displayId=0, eventId=-352642060 }
+12-22 20:21:10.351  8963  8990 D EGL_emulation: app_time_stats: avg=21.40ms min=2.40ms max=316.37ms count=28
+12-22 20:21:10.362   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:10.362   420   683 D audioserver: -129
+12-22 20:21:10.379  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741835
+12-22 20:21:10.408   420   508 D AudioFlinger: mixer(0x775a69abf930) throttle end: throttle time(2)
+12-22 20:21:10.429   440   440 W adbd    : timeout expired while flushing socket, closing
+12-22 20:21:10.567   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:10.567   420   508 D audioserver: -129
+12-22 20:21:10.791  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231081/com.example.lunchtray:id/next_button>
+12-22 20:21:10.807  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=798.5, y[0]=1341.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6693798, downTime=6693797, deviceId=-1, source=0x1002, displayId=0, eventId=-410615794 }
+12-22 20:21:10.856  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=798.5, y[0]=1341.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6693849, downTime=6693797, deviceId=-1, source=0x1002, displayId=0, eventId=-958962719 }
+12-22 20:21:10.887   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:10.888   420   683 D audioserver: -129
+12-22 20:21:11.111   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:11.112   420   508 D audioserver: -129
+12-22 20:21:11.375  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230842/com.example.lunchtray:id/cancel_button>
+12-22 20:21:11.386  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1073.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6694382, downTime=6694381, deviceId=-1, source=0x1002, displayId=0, eventId=-704658800 }
+12-22 20:21:11.432  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1073.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6694426, downTime=6694381, deviceId=-1, source=0x1002, displayId=0, eventId=-399995350 }
+12-22 20:21:11.481   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:11.482   420   683 D audioserver: -129
+12-22 20:21:11.484  8963  8990 D EGL_emulation: app_time_stats: avg=25.24ms min=2.34ms max=339.87ms count=25
+12-22 20:21:11.725   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:11.726   420   508 D audioserver: -129
+12-22 20:21:12.055  8963  8963 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231209/com.example.lunchtray:id/start_order_btn>
+12-22 20:21:12.067  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1197.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6695063, downTime=6695063, deviceId=-1, source=0x1002, displayId=0, eventId=-971442042 }
+12-22 20:21:12.144  1304  1304 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1197.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6695128, downTime=6695063, deviceId=-1, source=0x1002, displayId=0, eventId=-192059243 }
+12-22 20:21:12.198   420   683 D audioserver: FGS Logger Transaction failed
+12-22 20:21:12.203   420   683 D audioserver: -129
+12-22 20:21:12.403  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741839
+12-22 20:21:12.406  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741840
+12-22 20:21:12.408  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741841
+12-22 20:21:12.411  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741842
+12-22 20:21:12.413  8963  8963 D AutofillManager: notifyViewEnteredForFillDialog:1073741838
+12-22 20:21:12.427   420   508 D audioserver: FGS Logger Transaction failed
+12-22 20:21:12.427   420   508 D audioserver: -129
+12-22 20:21:12.515  8963  8990 D EGL_emulation: app_time_stats: avg=18.92ms min=3.38ms max=214.11ms count=32
+12-22 20:21:12.667  1001  1001 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+12-22 20:21:12.798  8963  8963 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: $0.00"
+12-22 20:21:12.800  8963  8988 I TestRunner: finished: order_reset_after_cancel_from_checkout(com.example.lunchtray.OrderFunctionalityTests)
